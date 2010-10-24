@@ -3,7 +3,8 @@
 **************************************************************************
 
 Plugin Name:  In Their Language
-Plugin URI:   1.0.0
+Plugin URI:   http://www.viper007bond.com/wordpress-plugins/other-plugins/in-their-language/
+Version:      1.0.0
 Description:  Attempts to switch WordPress to the viewer's language. Only works for translatable strings (i.e. not posts) and if there's a translation file in the user's language present.
 Author:       Viper007Bond
 Author URI:   http://www.viper007bond.com/
