@@ -50,8 +50,10 @@ function itl_locale_switcher( $locale ) {
 				}
 			}
 
-			// Cache the results for an hour to avoid having to read the filesystem every time
-			set_transient( 'itl_available_languages', $available_languages, 3600 );
+			// Cache the results for 1 minute to avoid having to read the filesystem every time
+			// Something like an hour or a day would be best, but the majority of blogs aren't high traffic
+			// Plus it'd confuse people who installed a new language file
+			set_transient( 'itl_available_languages', $available_languages, 60 );
 		}
 
 		// Go through the user's languages and see if we have a language file for them
