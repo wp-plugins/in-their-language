@@ -43,6 +43,10 @@ Posts cannot be translated in this method and if you aren't using the default Wo
 
 That's a job for another plugin. See [Multilingual WordPress](http://codex.wordpress.org/Multilingual_WordPress) on the Codex for a list.
 
+= I installed a new language file but it isn't working! =
+
+Try again in a minute. This plugin uses a little bit of caching to avoid looking at the languages directory on every page load. Results are cached for 60 seconds.
+
 == ChangeLog ==
 
 = Version 1.0.0 =
